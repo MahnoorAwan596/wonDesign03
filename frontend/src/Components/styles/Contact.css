@@ -1,0 +1,111 @@
+.contact-page-section,
+.contact-page-title h3,
+.contact-page-title p,
+.contact-page-content,
+.contact-page-form,
+.form-section,
+.contact-form-row,
+.c-f-label,
+.contact-form-row-1,
+.contact-form-button,
+.contact-page-image,
+.contact-page-title h3 span,
+.c-f-section,
+.form-section {
+  background-color: papayawhip;
+}
+.c-f-section, .contact-page-section {
+    height: 90vh;
+}
+.contact-page-title {
+  background-color: papayawhip;
+  height: 15%;
+  text-align: center;
+}
+
+.contact-page-title h3 span {
+  color: rgb(20, 125, 108);
+}
+.contact-page-title h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* color: rgb(20, 125, 108); */
+}
+.contact-page-title h3,
+.contact-page-title p {
+  margin-top: 1pc;
+}
+.c-f-label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* color: #dc5354; */
+    font-size:x-large;
+    font-weight: 500;
+    margin-top: 0.5pc;
+}
+.contact-page-title h3 {
+  font-size: 3pc;
+  text-decoration: solid;
+}
+
+.contact-page-content {
+  display: flex;
+  width: 93%;
+  margin-left: 3.5%;
+}
+
+.contact-page-form {
+  width: 50%;
+  margin-left: 3pc;
+}
+
+.contact-form-row {
+  width: 90%;
+  margin-top: 2%;
+  margin-bottom: 2pc;
+}
+
+.contact-form-button {
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  border-color: #dc5354;
+  background: #dc5354;
+  color: aliceblue;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.contact-form-button:hover {
+  box-shadow: 5px 10px 18px grey;
+  transition-duration: 0.4s;
+}
+
+.form-section {
+  height: 80%;
+}
+
+.contact-form-row-1 {
+  height: 30%;
+  width: 100%;
+}
+.contact-page-image {
+    margin-left: 2pc;
+    height: 66.5vh;
+    border-style: solid;
+    border-color: rgb(20, 125, 108);
+    border-width: 5px;
+}
+.contact-map {
+    height: 65vh;
+    width: 90vh;
+    
+}
+
+
+.loader-contact {
+  /* padding: 15pc 20pc; */
+  width: 88vh;
+  height: 63vh;
+  margin-left: 19pc;
+  margin-top: 12pc;
+  margin-right: 19pc;
+}

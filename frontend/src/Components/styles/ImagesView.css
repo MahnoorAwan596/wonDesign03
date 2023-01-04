@@ -1,0 +1,64 @@
+.ImagesView-section {
+    width: 90%;
+    margin-left: 5%;
+    height: 100%
+}
+
+.ImagesView-section h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(20, 125, 108);
+}
+
+.IV-map-method {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.IV-card {
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 14px 1px grey;
+    /* background: white; */
+    background-color: rgb(20, 125, 108);
+}
+
+.IV-card-image {
+    width: 260px;
+    height: 200px;
+}
+
+.IV-card-name {
+    display: flex;
+    margin-top: 1pc;
+    background-color: rgb(20, 125, 108);
+}
+
+.IV-card-name, .IV-card-email, .IV-card-name h5, .IV-card-email h5 {
+    background-color: rgb(20, 125, 108);
+    color: white;
+}
+
+/* .IV-card h4 {
+
+} */
+
+.IV-card-name h5 span,
+.IV-card-email h5 span {
+    font-size: large;
+    background-color: rgb(20, 125, 108);
+}
+
+.IV-card-select-button {
+    padding: 5px;
+    border: 2px solid black;
+    display: flex;
+    margin: auto;
+    background-color: papayawhip;
+    color: black;
+    border-color: papayawhip;
+    border-radius: 5px;
+}
+.StripeElement{
+    display: flex;
+}

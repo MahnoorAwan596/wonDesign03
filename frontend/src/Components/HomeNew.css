@@ -1,0 +1,799 @@
+.black-line {
+    width: 100%;
+    height: 2pt;
+    background-color: black;
+}
+
+
+
+/* HEADER */
+.banner {
+    background-color: papayawhip;
+    width: 100%;
+    height: 90.5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.banner-text {
+    background-color: papayawhip;
+    height: 90vh;
+}
+
+.customizable {
+    background-color: papayawhip;
+    color: black;
+    font-family: roboto;
+    font-size: xxx-large;
+    font-weight: 400;
+    margin-top: 0.5pc;
+    width: 100%;
+    height: 4pc;
+}
+
+.customizable span {
+    background-color: papayawhip;
+    width: 100%;
+}
+
+.customizableOne span {
+    background-color: papayawhip;
+    margin-top: 1pc;;
+}
+
+.forBorder {
+    background-color: papayawhip;
+    margin-left: 10%;
+    width: 55%;
+    height: 5pc;
+    margin-top: 11%;
+}
+
+.simpleLine {
+    background-color: papayawhip;
+    margin-top: 4%;
+    margin-left: 10%;
+    width: 70%;
+}
+
+.customizableOne {
+    background-color: papayawhip;
+    margin-left: 10%;
+    width: 47%;
+    font-family: roboto;
+    font-size: xxx-large;
+    font-weight: 400;
+    color: black;
+    margin-top: 1pc;
+}
+
+.span1 {
+    background-color: papayawhip;
+    color: rgb(20, 125, 108);
+    font-weight: 500;
+    /* margin-bottom: 5pc; */
+}
+
+.span2 {
+    background-color: papayawhip;
+    color: #DC5354;
+    font-weight: 500;
+}
+
+.para {
+    background-color: papayawhip;
+    min-height: 8%;
+    width: 65%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.para p {
+    background-color: papayawhip;
+    width: 100%;
+}
+
+.banner-image {
+    background-color: papayawhip;
+    /* margin-left: 30%;     */
+    height: 90vh;
+}
+
+.img {
+    background-color: papayawhip;
+    height: 90vh;
+}
+
+.banner-image {
+    background-color: papayawhip;
+}
+
+
+
+
+
+
+
+
+
+
+/* Business */
+.BackImage-section {
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/DesignBackground.jpg");
+    background-attachment: fixed;
+}
+
+.BI-background-trans {
+    width: 100%;
+    height: 80vh;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+}
+
+.BI-quote-icon, .BI-quote-icon i {
+    background-color: transparent;
+}
+
+.BI-quote-icon i {
+    font-size:xx-large;
+}
+
+.fa {
+    color: gainsboro;
+    /* padding: 8% 50%; */
+    margin-top: 9%;
+    margin-left: 50%;
+    margin-bottom: 6%;
+}
+
+.BI-quote, .BI-quote h2 {
+    background-color: transparent;
+    color: gainsboro;
+    
+}
+.BI-quote, .BI-quote-writer{
+    width: 60%;
+    margin-left: 20%;  
+    /* align-items: center;  */
+}
+.BI-quote h2, .BI-quote-writer h1 {
+    text-align: center;
+}
+.BI-quote-writer, .BI-quote-writer h1 {
+    background-color: transparent;
+    color: gainsboro;
+}
+.BI-quote-writer {
+    margin-top: 5%;
+}
+.BI-quote-writer h1 {
+    font-family: "Brush Script MT";
+}
+
+
+
+
+
+
+
+
+
+
+/* trending */
+.TrendingSection {
+    background-color: peachpuff;
+    width: 100%;
+    height: 80vh;
+}
+
+.trending-title,
+.trending-title h1,
+.trending-title h1 strong {
+    background-color: peachpuff;
+    margin-top: 4%;
+    height: 10%;
+    margin-bottom: 1%;
+}
+
+.trending-title h1 strong {
+    color: rgb(20, 125, 108);
+}
+
+.trending-container {
+    background-color: peachpuff;
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    margin-left: 12%;
+    align-items: center;
+}
+
+.trending-c {
+    background-color: peachpuff;
+    margin-right: 7%;
+}
+
+.trending-c-last {
+    background-color: peachpuff;
+}
+
+.trending-c:hover{  
+    -ms-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+    transition-duration: 0.4s;
+}
+
+.trending-c-last:hover{  
+    -ms-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25);
+    transition-duration: 0.4s;
+}
+
+.t-c-img {
+    border-style: solid;
+    border-color: #DC5354;
+    border-radius: 20%;
+    margin-bottom: 5%;
+}
+
+.trending-c p, .trending-c-last p {
+    background-color: peachpuff;
+}
+
+
+
+
+
+
+
+
+
+
+/* Counts */
+.Counts-section {
+    width: 100%;
+    height: 65vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/DesignBackground.jpg");
+    background-attachment: fixed;
+}
+.Counts-background-trans {
+    width: 100%;
+    height: 80vh;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+}
+.Counts, .Counts1, .Counts2, .Counts3, .Counts4, .Counts1 h1, .Counts2 h1, .Counts3 h1, .Counts4 h1, .Counts1 h5, .Counts2 h5, .Counts3 h5, .Counts4 h5 {
+    background-color: transparent;
+    color: gainsboro;
+}
+.Counts {
+    width: 84%;
+    margin-left: 8%;
+    display: flex;
+    padding: 13vh 0vh;
+}
+.Counts1, .Counts2, .Counts3, .Counts4 {
+    width: 30%;
+}
+.Counts1, .Counts2, .Counts3 {
+    margin-right: 5%;
+}
+.Counts1 h1, .Counts1 h5, .Counts2 h1, .Counts2 h5,
+.Counts3 h1, .Counts3 h5, .Counts4 h1, .Counts4 h5 {
+    text-align: center;
+}
+.countup {
+    /* width: 50%; */
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Testimonials */
+.testimonials-section {
+    background-color: papayawhip;
+    height: 85vh;
+    width: 100%;
+}
+
+.test-heading {
+    background-color: papayawhip;
+    height: 10%;
+}
+
+.test-container {
+    background-color: papayawhip;
+    height: 100%;
+}
+
+.test-heading h1 {
+    background-color: papayawhip;
+    margin-top: 4%;
+    font-weight: 600;
+}
+
+.test-columns {
+    background-color: papayawhip;
+    height: 90%;
+    display: flex;
+}
+
+.test-columnOne {
+    background-color: papayawhip;
+    width: 50%;
+}
+
+.test-columnOne-image {
+    background-color: papayawhip;
+    margin-top: 3.5%;
+}
+
+.image-mishal {
+    background-color: papayawhip;
+    width: 23%;
+    height: 23%;
+    border-radius: 50%;
+}
+
+.test-columnOne-name {
+    background-color: papayawhip;
+    margin-top: 2%;
+}
+
+.test-columnOne-name h2 {
+    background-color: papayawhip;
+    color: rgb(20, 125, 108);
+    font-weight: bold;
+}
+
+.test-columnOne-text {
+    background-color: papayawhip;
+    margin-top: 4%;
+    width: 650px;
+    margin-left: 10%;
+}
+
+.test-columnOne-text p {
+    background-color: papayawhip;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.test-columnTwo {
+    background-color: papayawhip;
+}
+
+.test-columnTwo-image {
+    background-color: papayawhip;
+    margin-top: 5%;
+    margin-left: 1pc;
+}
+
+.image-mahnoor {
+    background-color: papayawhip;
+    width: 29%;
+    height: 29%;
+    border-radius: 50%;
+}
+
+.test-columnTwo-name {
+    background-color: papayawhip;
+    margin-top: 2%;
+    margin-left: 1pc;
+}
+
+.test-columnTwo-name h2 {
+    background-color: papayawhip;
+    color: rgb(20, 125, 108);
+    font-weight: bold;
+}
+
+.test-columnTwo-text {
+    background-color: papayawhip;
+    margin-top: 5%;
+    width: 650px;
+    margin-left: 5%;
+}
+
+.test-columnTwo-text p {
+    background-color: papayawhip;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+/* for Logo.png */
+/* .footer-logo {
+    margin-top: 5.2pc;
+    background-color: transparent;
+    width: 32pc;
+    height: 5pc;
+} */
+
+/* for Logo5.png */
+.footer-logo {
+    margin-top: 5.2pc;
+    background-color: transparent;
+    width: 30pc;
+    height: 8pc;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+    font-family: Open Sans;
+}
+
+section {
+    width: 100%;
+    display: inline-block;
+    background: #1c3d52;
+    height: 40vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    /* text-decoration: underline; */
+}
+
+.footer-distributed {
+    background: #2c5f78;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+.footer-distributed .footer-left {
+    width: 40%;
+    background: #2c5f78;
+}
+
+.footer-left h3 {
+    background: #2c5f78;
+}
+
+.footer-left h3 span {
+    background: #2c5f78;
+}
+
+/* The company logo */
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: peachpuff;
+}
+
+/* Footer links */
+.footer-links {
+    background: #2c5f78;
+}
+
+.footer-links a {
+    background: #2c5f78;
+}
+
+.footer-company-name {
+    background: #2c5f78;
+}
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 5%;
+    /* margin: 0; */
+}
+
+/* Footer Center */
+.location,
+.phone,
+.email {
+    background: #2c5f78;
+}
+
+.location p,
+.phone p,
+.email p,
+.location p span,
+.email p a {
+    background: #2c5f78;
+}
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: peachpuff;
+    text-decoration: none;
+    ;
+}
+
+.footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-distributed,
+.footer-links,
+.link-1:before {
+    content: none;
+}
+
+/* Footer Right */
+.footer-company-about,
+.footer-company-about span,
+.footer-icons,
+.footer-icons a,
+.footer-right {
+    background: #2c5f78;
+}
+
+.footer-icons a i {
+    background-color: transparent;
+}
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed,
+.footer-company-about {
+    line-height: 20px;
+    color: gainsboro;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed,
+.footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+.footer-icons a i:hover {
+    transform: scale(1.15);
+    color: black;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    /* background-color: #33383b; */
+    background-color: transparent;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+@media (max-width: 880px) {
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.loader {
+    margin-left: 750px;
+    margin-top: 280px;
+}
+
+
+
+
+
+
+
+
+
+
+/* design */
+/* .designSection {
+    height: 97vh;
+}
+
+.title {
+    margin-top: 5pc;
+}
+
+.title h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 5ch;
+}
+
+.figure {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-top: 10vh;
+}
+
+.frame-1 {
+    margin-top: 55px;
+}
+
+.one {
+    margin-top: 40px;
+}
+
+.frame-2 {
+    margin-top: 55px;
+}
+
+.three {
+    margin-top: 40px;
+}
+
+.fig-text {
+    display: flex;
+    flex-direction: row;
+    margin-left: 190px;
+    margin-top: 40px;
+}
+
+.fig1 {
+    width: 200px;
+    text-align: center;
+}
+
+.fig2 {
+    width: 250px;
+    text-align: center;
+    margin-left: 220px;
+}
+
+.fig3 {
+    width: 200px;
+    text-align: center;
+    margin-left: 230px;
+}
+
+.fig1-title,
+.fig2-title,
+.fig3-title {
+    font-weight: 700;
+    font-size: 2ch;
+}
+
+.fig1-text,
+.fig2-text,
+.fig3-text {
+    margin-top: 10px;
+    font-weight: 450;
+} */

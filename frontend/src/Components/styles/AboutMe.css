@@ -1,0 +1,164 @@
+.AboutMe-Page {
+    width: 100%;
+    height: 93vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../img/DesignBackground.jpg");
+    background-attachment: fixed;
+}
+
+.AM-background-trans {
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+}
+
+.AM-container {
+    position: absolute;
+    margin-top: 9.75vh;
+    background-color: papayawhip;
+    width: 70%;
+    height: 70vh;
+    margin-left: 6%;
+    display: flex;
+    border-color: rgb(20, 125, 108);
+    border-width: 3px;
+    border-style: solid;
+}
+
+.AM-left {
+    width: 50%;
+    padding: 100px 80px;
+}
+
+.AM-title h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(20, 125, 108);
+}
+
+.AM-content {
+    padding: 22px 0px;
+}
+
+.AM-content h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.AM-line {
+    color: rgb(20, 125, 108);
+    height: 5px;
+    background-color: rgb(20, 125, 108);
+}
+
+.AM-image {
+    position: absolute;
+    align-items: center;
+    height: 50vh;
+    margin-top: 8vh;
+    margin-left: 10vh;
+}
+
+.AM-second-container {
+    position: absolute;
+    margin-top: 85vh;
+    background-color: papayawhip;
+    width: 35%;
+    height: 14vh;
+    margin-left: 32.5%;
+    display: flex;
+    flex-direction: column;
+    border-color: rgb(20, 125, 108);
+    border-width: 3px;
+    border-style: solid;
+    border-top-left-radius: 3vh;
+    border-top-right-radius: 3vh;
+}
+
+.created-contests-title {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.created-contests-title h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(20, 125, 108);
+}
+
+.AM-third-container {
+    position: absolute;
+    margin-top: 103vh;
+    background-color: papayawhip;
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    /* border-color: rgb(20, 125, 108);
+    border-width: 3px;
+    border-style: solid;
+    border-top-left-radius: 3vh;
+    border-top-right-radius: 3vh; */
+}
+
+.won-contests-title {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.won-contests-title h1 {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(20, 125, 108); 
+}
+
+.won-contest-card {
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: rgb(20, 125, 108);
+    margin-left: 11%;
+    width: 78%;
+    height: 13pc;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3pc;
+    margin-bottom: 1pc;
+}
+.won-contest-card-content {
+    margin-top: 2vh;
+    margin-left: 5vh;
+    width: 80%;
+    height: 80%;
+}
+.won-contest-component h3 b {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5pc;
+}
+.won-contest-component h3 span {
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-size: 1.25pc;
+}
+
+aside {
+    width: 22%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* margin-left: 5px; */
+    float: right;
+    font-style: italic;
+    background-color: #147d6c;
+    margin-top: 2pc;
+    margin-right: 1pc;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #147d6c;
+  }
+
+.news {
+    margin-top: 1pc;
+}

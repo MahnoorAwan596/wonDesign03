@@ -1,0 +1,267 @@
+/* Contest Open page CSS */
+.open-contest-page,
+.oc-upperpart,
+.oc-desc1,
+.oc-title {
+  background-color: papayawhip;
+}
+
+.background-set {
+  background-image: url("../../img/DesignBackground.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.background-set-blur {
+  /* width: 100%; */
+  /* height: 100%; */
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+}
+
+.open-contest-page {
+  height: 100%;
+}
+
+.oc-upperpart {
+  display: flex;
+  height: 48pc;
+  width: 95%;
+  margin-left: 5%;
+  background-color: transparent;
+}
+
+.oc-desc1 {
+  background-color: transparent;
+  /* width: 58%; */
+  display: flex;
+}
+
+.oc-left {
+  width: 54%;
+  background-color: transparent;
+}
+
+.oc-title {
+  background-color: #dc5354;
+  margin-top: 2pc;
+  border-radius: 5px;
+  height: 2.5pc;
+  width: 50pc;
+}
+
+.oc-title h3 {
+  background-color: #dc5354;
+  color: white;
+  margin-left: 1pc;
+  border-radius: 5px;
+}
+
+.oc-singleContest-creator {
+  background-color: transparent;
+  height: 4pc;
+  display: flex;
+  margin-top: 1pc;
+}
+
+.oc-creator-img {
+  background-color: papayawhip;
+  height: 3pc;
+  width: 3pc;
+  border-style: solid;
+  border-color: rgb(20, 125, 108);
+  border-radius: 2pc;
+}
+
+.oc-creator-name {
+  background-color: transparent;
+  margin-left: 0.5pc;
+  margin-top: 0.75pc;
+}
+
+.oc-creator-name h5 {
+  color: papayawhip;
+  background-color: transparent;
+}
+
+.oc-creator-stars {
+  background-color: transparent;
+  height: 2pc;
+  margin: -0.5pc;
+  margin-left: 0.5pc;
+}
+
+.star {
+  background-color: transparent;
+  height: 2pc;
+}
+
+.oc-status-open {
+  margin-top: 1pc;
+  border-style: solid;
+  border-color: green;
+  width: 8pc;
+  height: 2pc;
+  text-align: center;
+  border-radius: 1pc;
+  border-width: 3px;
+  margin-bottom: 0.5pc;
+}
+.oc-status-close {
+  margin-top: 1pc;
+  border-style: solid;
+  border-color: #dc5354;
+  width: 8pc;
+  height: 2pc;
+  text-align: center;
+  border-radius: 1pc;
+  border-width: 3px;
+  margin-bottom: 0.5pc;
+}
+
+.box {
+  border-style: solid;
+  background-color: papayawhip;
+  border-color: #dc5354;
+  border-radius: 8px;
+  width: 50pc;
+  height: 62.75vh;
+
+}
+
+.oc-description {
+  /* background-color: transparent; */
+  margin-top: 1pc;
+  margin-left: 1pc;
+  text-align: justify;
+  width: 47pc;
+}
+
+.oc-ref-files {
+  margin-left: 1pc;
+  /* width: 47pc; */
+}
+
+.oc-ref-files p {
+  width: 47pc;
+}
+
+.oc-description h5,
+.oc-ref-files h5 {
+  /* background-color: transparent; */
+  text-decoration: underline;
+}
+
+.oc-description h5 b,
+.oc-description p {
+  /* background-color: transparent; */
+  color: black;
+}
+
+.oc-right {
+  /* width: 42%;  */
+  background-color: transparent;
+  height: 43pc;
+  margin-left: 2pc;
+  position: relative;
+}
+
+.oc-right:hover .oc-image-blur {
+  opacity: 1;
+}
+
+.oc-image {
+  width: 38.5pc;
+  height: 44.75pc;
+  margin-top: 2pc;
+  margin-left: 1pc;
+  border-radius: 10px;
+  display: block;
+}
+
+.oc-image-blur {
+  position: absolute;
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  transition: .5s ease;
+  opacity:1;
+  width: 38.5pc;
+  height: 18pc;
+  margin-left: 1pc;
+  padding: 5pc;
+  text-align: center;
+  margin-bottom: -3.8pc;;
+}
+
+.oc-image2 {
+  background-color: transparent;
+  animation: shake 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(5px, 10px) ; }
+  100% { transform: translate(5px, -5px); }
+}
+
+.oc-ref-files,
+.oc-ref-files h5 b,
+.oc-ref-files p {
+  background-color: papayawhip;
+}
+
+.hr {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.c-lowerpart {
+  height: 4.5pc;
+  width: 60%;
+  margin-left: 20%;
+  border-style: solid;
+  border-color: rgb(20, 125, 108);
+  border-width: 3px;
+  border-radius: 3pc;
+  margin-bottom: 2pc;
+}
+
+.image-submission-form,
+.image-submission-form label,
+.image-submission-form-field {
+  background-color: papayawhip;
+}
+
+.image-submission-form-label {
+  margin-left: 2pc;
+  margin-top: 1pc;
+}
+
+.image-submission-form-label h4 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-right: 1pc;
+} 
+
+.submit-image-button {
+  float: right;
+  background-color: #dc5354;
+  height: 3pc;
+  width: 8pc;
+  color: white;
+  border-color: #dc5354;
+  border-radius: 2pc;
+  margin-right: 2pc;
+  margin-top: 0.5pc;
+}
+
+.submit-image-button:hover {
+  box-shadow: 5px 10px 18px grey;
+  transition-duration: 0.4s;
+}
+

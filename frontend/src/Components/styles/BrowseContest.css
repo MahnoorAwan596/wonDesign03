@@ -1,0 +1,206 @@
+/* BROWSE CONTEST CSS */
+.contests,
+.div.browse-page,
+.contest-page-title,
+.browse-page,
+.browse-contest-div-main,
+.contest-post-area {
+  /* background-color: papayawhip;t */
+}
+
+.browse-contest-div-main {
+  background-image: url("../../img/DesignBackground.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contests {
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  /* Fallback color */
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.browse-page {
+  background-color: transparent;
+}
+
+div.browse-page {
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.c-post:hover {
+  -ms-transform: scale(1.05);
+  /* IE 9 */
+  -webkit-transform: scale(1.05);
+  /* Safari 3-8 */
+  transform: scale(1.05);
+  box-shadow: 5px 10px 18px rgb(172, 52, 52);
+  transition-duration: 0.4s;
+}
+
+.contest-page-title {
+  min-height: 20%;
+  background-color: transparent;
+  margin-bottom: 3%;
+}
+
+.contest-page-title h3 {
+  background-color: transparent;
+  font-size: 3pc;
+  width: 45%;
+  text-align: center;
+  background-color: #dc5354;
+  margin-left: 27.5%;
+  border-style: solid;
+  border-radius: 35px;
+  border-color: #dc5354;
+}
+
+.contest-page-title h3 span {
+  background-color: transparent;
+  color: white;
+}
+
+.buttons-group {
+  background-color: transparent;
+  height: 5pc;
+  margin-top: 2pc;
+}
+
+/* .but {
+  width: 15%;
+  height: 3pc;
+  border-style: solid;
+  border-color: peachpuff;
+  border-radius: 8px;
+  flex-direction: row;
+  box-shadow: 5px 10px 18px gray;
+  background-color: transparent;
+  color: white;
+} */
+
+/* .but:hover {
+  box-shadow: 5px 10px 18px white;
+  transition-duration: 0.4s;
+}
+
+.buttonb-1 {
+  background-color: gray;
+  text-shadow: 2px 2px 5px white;
+  margin-left: 6.5%;
+}
+
+.buttonb-2,
+.buttonb-3,
+.buttonb-4,
+.buttonb-5 {
+  background-color: gray;
+  text-shadow: 2px 2px 5px white;
+  margin-left: 3%;
+} */
+
+.contest-post-area {
+  width: 100%;
+  background-color: transparent;
+}
+
+.c-post {
+  width: 85%;
+  height: 20pc;
+  margin-left: 7.5%;
+  display: flex;
+  margin-bottom: 4pc;
+  border-radius: 20px;
+}
+
+.c-post:hover {
+  box-shadow: 5px 10px 18px #147d6c;
+  transition-duration: 0.4s;
+}
+
+.c-pic {
+  height: 17pc;
+  width: 17pc;
+  margin-left: 1.5pc;
+  margin-top: 1.5pc;
+  border-radius: 8%;
+}
+
+.c-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5pc;
+}
+
+.c-title {
+  color: black;
+  text-align: left;
+  margin-left: 1pc;
+  font-size: x-large;
+}
+
+.c-desc {
+  color: black;
+  text-align: left;
+  margin-top: 0.25pc;
+  margin-left: 1pc;
+  height: 8pc;
+}
+
+.c-status,
+.c-entries,
+.c-package {
+  text-align: left;
+  margin-left: 1pc;
+  color: black;
+}
+
+.lower-data{
+  margin-top: 1.5pc;
+  width: 65pc;
+}
+
+.c-post,
+.c-pic,
+.c-content,
+.c-title,
+.c-title b,
+.c-desc,
+.c-desc p,
+.c-status,
+.c-status b,
+.c-entries,
+.c-entries b,
+.c-package,
+.c-package b {
+  background-color: peachpuff;
+  border-color: peachpuff;
+}
+
+.lower-data {
+  display: flex;
+}
+
+.lower-left {
+  background-color: peachpuff;
+  width: 32.5pc;
+}
+
+.lower-right {
+  background-color: peachpuff;
+  width: 32.5pc;
+}
+
+.status-outside {
+  width: 7pc;
+  height:3.5pc;
+  float: right;
+  margin-top: 1pc;
+  border-radius: 5px;
+}

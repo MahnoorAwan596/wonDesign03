@@ -1,0 +1,1175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: rgb(255, 247, 247); */
+  background-color: papayawhip;
+  /* color: aliceblue; */
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+
+/* BROWSE CONTEST CSS */
+/* .contests,
+.div.browse-page,
+.contest-page-title,
+.browse-page,
+.browse-contest-div-main,
+.contest-post-area {
+  background-color: papayawhip;
+}
+
+div.browse-page {
+
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.c-post:hover {
+    -ms-transform: scale(1.05);
+
+    -webkit-transform: scale(1.05);
+
+    transform: scale(1.05);
+    box-shadow: 5px 10px 18px rgb(172, 52, 52);
+    transition-duration: 0.4s;
+}
+.contest-page-title {
+  margin-top: 1%;
+  min-height: 20%;
+  background-color: transparent;
+  margin-bottom: 3%;
+}
+
+.contest-page-title h3 {
+  background-color: transparent;
+  font-size: 3pc;
+  width: 45%;
+  text-align: center;
+  background-color: #dc5354;
+  margin-left: 27.5%;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: #dc5354;
+}
+
+.contest-page-title h3 span {
+  background-color: transparent;
+  color: white;
+}
+
+.buttons-group {
+  background-color: transparent;
+  height: 5pc;
+  margin-top: 2pc;
+}
+
+.but {
+  width: 15%;
+  height: 3pc;
+  border-style: solid;
+  border-color: rgb(20, 125, 108);
+  border-radius: 8px;
+  flex-direction: row;
+  box-shadow: 5px 10px 18px gray;
+  background-color: transparent;
+  color: white;
+}
+
+.but:hover {
+  box-shadow: 5px 10px 18px white;
+  transition-duration: 0.4s;
+}
+
+.buttonb-1 {
+  background-color: gray;
+  text-shadow: 2px 2px 5px white;
+  margin-left: 6.5%;
+}
+
+.buttonb-2,
+.buttonb-3,
+.buttonb-4,
+.buttonb-5 {
+  background-color: gray;
+  text-shadow: 2px 2px 5px white;
+  margin-left: 3%;
+}
+
+.contest-post-area {
+  
+  width: 100%;
+}
+
+.c-post {
+  width: 90%;
+  height: 20pc;
+  margin-left: 5%;
+  display: flex;
+  margin-bottom: 2pc;
+  border-radius: 20px;
+}
+
+.c-post:hover {
+  box-shadow: 5px 10px 18px #dc5354;
+  transition-duration: 0.4s;
+}
+
+.c-pic {
+  height: 17pc;
+  width: 17pc;
+  margin-left: 1.5pc;
+  margin-top: 1.5pc;
+  border-radius: 8%;
+}
+
+.c-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5pc;
+}
+
+.c-title {
+  color: white;
+  text-align: left;
+  margin-top: 1pc;
+  margin-left: 1pc;
+  font-size: x-large;
+}
+
+.c-desc {
+  color: white;
+  text-align: left;
+  margin-top: 1pc;
+  margin-left: 1pc;
+  height: 8pc;
+}
+
+.c-status,
+.c-entries,
+.c-package {
+  text-align: left;
+  margin-left: 1pc;
+  color: white;
+}
+
+.c-post,
+.c-pic,
+.c-content,
+.c-title,
+.c-title b,
+.c-desc,
+.c-desc p,
+.c-status,
+.c-status b,
+.c-entries,
+.c-entries b,
+.c-package,
+.c-package b {
+  
+  background-color: rgb(20, 125, 108);
+  border-color: rgb(20, 125, 108);
+  
+} */
+
+
+
+
+
+/* Contest Open page CSS */
+/* .open-contest-page,
+.oc-upperpart,
+.oc-desc1,
+.oc-title {
+  background-color: papayawhip;
+}
+
+.open-contest-page {
+  height: 100%;
+}
+
+.oc-upperpart {
+  display: flex;
+  
+  width: 80%;
+  margin-left: 10%;
+}
+
+.oc-desc1 {
+  width: 58%;
+}
+
+.oc-title {
+  background-color: #dc5354;
+  margin-top: 2pc;
+}
+
+.oc-title h3 {
+  background-color: #dc5354;
+  color: white;
+  margin-left: 1pc;
+}
+
+.oc-singleContest-creator {
+  background-color: papayawhip;
+  height: 4pc;
+  display: flex;
+  margin-top: 2pc;
+}
+
+.oc-creator-img {
+  background-color: papayawhip;
+  height: 3pc;
+  width: 3pc;
+  border-style: solid;
+  border-color: rgb(20, 125, 108);
+  border-radius: 2pc;
+}
+
+.oc-creator-name {
+  background-color: papayawhip;
+  margin-left: 1pc;
+  margin-top: 0.5pc;
+}
+
+.oc-creator-name h5 {
+  background-color: papayawhip;
+}
+
+.oc-creator-stars {
+  background-color: papayawhip;
+  height: 2pc;
+}
+
+.star {
+  background-color: papayawhip;
+  height: 2pc;
+}
+
+.oc-status {
+  margin-top: 1.5pc;
+  border-style: solid;
+  border-color: lightgrey;
+  width: 8pc;
+  height: 2pc;
+  text-align: center;
+  border-radius: 1pc;
+  border-width: 1.5px;
+}
+
+.oc-description {
+  background-color: papayawhip;
+  margin-top: 1pc;
+  text-align: justify;
+}
+
+.oc-description h5,
+.oc-ref-files h5 {
+  background-color: papayawhip;
+  text-decoration: underline;
+}
+
+.oc-description h5 b,
+.oc-description p {
+  background-color: papayawhip;
+}
+
+.oc-image {
+  width: 42%;
+  height: 27pc;
+  margin-top: 2pc;
+  margin-left: 1pc;
+}
+
+.oc-ref-files,
+.oc-ref-files h5 b,
+.oc-ref-files p {
+  background-color: papayawhip;
+}
+
+.hr {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.c-lowerpart {
+  height: 30pc;
+  background-color: papayawhip;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.image-submission-form,
+.image-submission-form label,
+.image-submission-form-field {
+  background-color: papayawhip;
+}
+
+.image-submission-form-label {
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+.submit-image-button {
+  float: right;
+  background-color: #dc5354;
+  height: 2pc;
+  width: 8pc;
+  color: white;
+  border-color: #dc5354;
+  border-radius: 5px;
+}
+
+.submit-image-button:hover {
+  box-shadow: 5px 10px 18px grey;
+  transition-duration: 0.4s;
+} */
+
+
+
+
+
+
+
+/* LOGIN CSS */
+/* @import url("https://fonts.googleapis.com/csss?family=Roboto:400,700,300,500,600"); */
+
+/* .log-in {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.log-in-image {
+  width: 60%;
+}
+
+.peak {
+  width: 100%;
+  height: 90vh;
+}
+
+.log-in-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.log-in-text h1 {
+  margin-top: 5%;
+  margin-left: 8%;
+}
+
+.l-email {
+  border: solid;
+  border-radius: 5px;
+  margin-left: 8%;
+  margin-top: 10%;
+  width: 74%;
+  height: 50px;
+  text-align: left;
+}
+
+.l-password {
+  border: solid;
+  border-radius: 5px;
+  margin-left: 8%;
+  margin-top: 3%;
+  width: 74%;
+  height: 50px;
+}
+
+.forgot {
+  display: flex;
+  flex-direction: row;
+  margin-left: 8%;
+  margin-top: 3%;
+}
+
+.forgot2 {
+  margin-left: 40%;
+  border: none;
+  width: 100px;
+  text-decoration: underline;
+}
+
+.l-button {
+  width: 180px;
+  height: 50px;
+  background-color: #dc5354;
+  border-color: #dc5354;
+  margin-left: 8%;
+  margin-top: 3%;
+  border: solid;
+  border-radius: 10px;
+  font-size: 1.5ch;
+  color: rgb(255, 247, 247);
+}
+
+.l-button:hover {
+  box-shadow: 5px 10px 18px grey;
+  transition-duration: 0.4s;
+}
+
+.no-account {
+  margin-left: 8%;
+  margin-top: 4%;
+}
+
+.l-signup {
+  border: none;
+}
+.l-signup:hover {
+  text-decoration: underline;
+  -ms-transform: scale(1.5);
+
+    -webkit-transform: scale(1.5);
+  
+    transform: scale(1.5);
+    
+    transition-duration: 0.4s;
+} */
+
+
+
+
+
+/* SIGN UP CSS */
+/* @import url("https://fonts.googleapis.com/csss?family=Roboto:400,700,300,500,600"); */
+/* .signup-page {
+  height: 88vh;
+  width: 100%;
+}
+
+.sign-up {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.sign-up-image {
+  width: 60%;
+}
+
+.peak {
+  width: 100%;
+  height: 90vh;
+}
+
+.sign-up-text {
+  width: 50%;
+}
+
+.sign-up-text h1 {
+  margin-top: 5%;
+  margin-left: 8%;
+}
+
+.small-line {
+  width: 7%;
+  height: 6px;
+  margin-left: 8%;
+  margin-top: 4%;
+
+  background-color: #0d9bb9;
+}
+
+.first-row {
+  margin-left: 8%;
+  margin-top: 4%;
+}
+
+.second-row {
+  margin-left: 8%;
+  margin-top: 4%;
+}
+
+.s-username {
+  border: solid;
+  border-radius: 5px;
+  width: 80.4%;
+  height: 50px;
+}
+
+.s-email {
+  border: solid;
+  border-radius: 5px;
+  margin-left: 8%;
+  margin-top: 3%;
+  width: 74%;
+  height: 50px;
+  text-align: left;
+}
+
+.s-password {
+  border: solid;
+  border-radius: 5px;
+  margin-left: 8%;
+  margin-top: 3%;
+  width: 74%;
+  height: 50px;
+}
+
+.user-type {
+  margin-left: 8%;
+  margin-top: 3%;
+  border: solid;
+  border-radius: 5px;
+  width: 74%;
+  height: 50px;
+
+}
+
+.button-and-text {
+  display: flex;
+  flex-direction: row;
+  height: 12%;
+}
+
+.s-button {
+  width: 150px;
+  height: 50px;
+  background-color: #dc5354;
+  border-color: #dc5354;
+  margin-left: 35%;
+  margin-top: 15%;
+  border: solid;
+  border-radius: 10px;
+  font-size: 1.5ch;
+  color: rgb(255, 247, 247);
+}
+
+.s-button:hover {
+  box-shadow: 5px 10px 18px grey;
+  transition-duration: 0.4s;
+}
+
+.text {
+  margin-left: 13%;
+  margin-top: 40px;
+}
+
+.last {
+  width: 80%;
+  margin-left: 8%;
+  margin-top: 4%;
+}
+
+.s-login {
+  border: none;
+}
+.s-login:hover {
+  text-decoration: underline;
+  -ms-transform: scale(1.5);
+  
+  -webkit-transform: scale(1.5);
+  
+  transform: scale(1.5);
+ 
+  transition-duration: 0.4s;
+} */
+
+
+
+
+
+
+
+/* NAVBAR NEW CSS */
+/* .my-logo {
+  max-width: 100%;
+  margin-left: 25%;
+  height: 50px;
+}
+
+.navbar-nav,
+.nav-item,
+.nav-link,
+.navbar,
+.navbar-brand,
+.my-logo,
+.navbar-toggler,
+.navbar-toggler-icon,
+.collapse,
+.Navbar-Section-section {
+  background-color: peachpuff;
+}
+
+.collapse {
+  margin-right: 25px;
+}
+
+.navbar-brand {
+  width: 290px;
+} */
+
+
+
+
+
+
+
+
+/* CONTACT CSS */
+/* .contact-page-section {
+  
+} */
+
+/* .contact-page-section,
+.contact-page-title h3,
+.contact-page-title p,
+.contact-page-content,
+.contact-page-form,
+.form-section,
+.contact-form-row,
+.c-f-label,
+.contact-form-row-1,
+.contact-form-button,
+.contact-page-image,
+.contact-page-title h3 span,
+.c-f-section,
+.form-section {
+  background-color: papayawhip;
+}
+
+.contact-page-title {
+  background-color: papayawhip;
+  height: 15%;
+  text-align: center;
+}
+
+.contact-page-title h3 span {
+  color: #0d9bb9;
+}
+
+.contact-page-title h3,
+.contact-page-title p {
+  margin-top: 1pc;
+}
+
+.contact-page-title h3 {
+  font-size: 3pc;
+  text-decoration: solid;
+}
+
+.contact-page-content {
+  display: flex;
+}
+
+.contact-page-form {
+  width: 50%;
+  margin-left: 3pc;
+}
+
+.contact-form-row {
+  width: 90%;
+  margin-top: 2%;
+  margin-bottom: 2pc;
+}
+
+.contact-form-button {
+  width: 20%;
+  height: 30%;
+  border-radius: 0.5pc;
+  border-color: #dc5354;
+  background: #dc5354;
+  color: aliceblue;
+}
+
+.contact-form-button:hover {
+  box-shadow: 5px 10px 18px grey;
+  transition-duration: 0.4s;
+}
+
+.form-section {
+  height: 80%;
+}
+
+.contact-form-row-1 {
+  height: 30%;
+  width: 100%;
+} */
+
+
+
+
+
+
+
+
+
+/* CREATE CONTEST */
+/* .c-p-section {
+  background-color: papayawhip;
+
+}
+.create-page-section {
+  background-color: papayawhip;
+
+  height: 100%;
+}
+
+.create-page-title {
+ 
+  background-color: transparent;
+  min-height: 20%;
+}
+
+.create-page-title h3 {
+  background-color: papayawhip;
+  margin-top: 0.5pc;
+  text-align: center;
+  font-size: 3pc;
+}
+
+.create-page-title h3 span {
+  background-color: papayawhip;
+  color: #0d9bb9;
+}
+
+.create-page-content {
+  background-color: papayawhip;
+  display: flex;
+  height: 75%;
+  margin-left: 3pc;
+}
+
+.create-page-data {
+  background-color: papayawhip;
+  width: 50%;
+}
+
+.question-1 {
+  background-color: papayawhip;
+  margin-top: 2pc;
+}
+
+.categories,
+.c-row-2,
+.c-row-3,
+.next1-button {
+  background-color: papayawhip;
+  margin-top: 1pc;
+}
+
+.c-row-1,
+.c-row-2,
+.c-row-3 {
+  background-color: papayawhip;
+  display: flex;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+  background-color: papayawhip;
+  width: 19pc;
+  height: 7.5pc;
+  border-radius: 1pc;
+}
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover, .card6:hover {
+  -ms-transform: scale(1.1);
+
+  -webkit-transform: scale(1.1);
+
+  transform: scale(1.1);
+  box-shadow: 5px 10px 18px rgb(172, 52, 52);
+  transition-duration: 0.4s;
+}
+
+.card2,
+.card4,
+.card6 {
+  background-color: papayawhip;
+  margin-left: 2pc;
+}
+
+.button-icon1,
+.button-icon2,
+.button-icon3,
+.button-icon4,
+.button-icon5,
+.button-icon6 {
+  background-color: papayawhip;
+  width: 4pc;
+  height: 4pc;
+}
+
+.next1-button {
+  background-color: papayawhip;
+  border-radius: 0.7pc;
+  width: 7.5pc;
+  height: 3pc;
+  float: right;
+  margin-right: 5pc;
+  background-color: #dc5354;
+  color: white;
+  border-color: #dc5354;
+}
+
+.next1-button:hover {
+  box-shadow: 5px 10px 18px grey;
+  transition-duration: 0.4s;
+}
+
+.create-page-image {
+  animation: shake 1.5s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes shake {
+  0% { transform: translate(5px, 10px) ; }
+
+  100% { transform: translate(5px, -5px); }
+}
+
+.create-page-form {
+  background-color: papayawhip;
+  width: 50%;
+}
+
+.create-form {
+  background-color: papayawhip;
+  height: 95%;
+}
+
+.form-row-1,
+.form-row-2 {
+  background-color: papayawhip;
+  display: flex;
+  margin-top: 2pc;
+}
+
+.form-row-3,
+.form-row-4,
+.form-row-5 {
+  background-color: papayawhip;
+  margin-top: 2pc;
+}
+
+.form-row-12,
+.form-row-22 {
+  background-color: papayawhip;
+  margin-left: 3%;
+}
+
+.form-row-11,
+.form-row-12,
+.form-row-21,
+.form-row-22 {
+  background-color: papayawhip;
+  width: 40%;
+}
+
+.form-row-3,
+.form-row-4 {
+  background-color: papayawhip;
+  width: 83%;
+}
+
+.form-row-5 {
+  background-color: papayawhip;
+  height: 30%;
+}
+
+.create-page-image {
+  background-color: papayawhip;
+  margin-left: 3pc;
+  margin-top: 1pc;
+}
+
+.back1-button,
+.next2-button {
+  border-radius: 0.7pc;
+  width: 10pc;
+  height: 3pc;
+  background-color: #dc5354;
+  color: white;
+  border-color: #dc5354;
+}
+
+.next2-button {
+  float: right;
+  margin-right: 18.25pc;
+}
+
+.question-1 h3,
+.card1 h5,
+.card2 h5,
+.card3 h5,
+.card4 h5,
+.card5 h5,
+.card6 h5 {
+  background-color: papayawhip;
+}
+
+.image-create {
+  background-color: papayawhip;
+} */
+
+
+
+
+
+
+
+/* create contest part-2 */
+/* .c-c-2 {
+
+  background-color: papayawhip;
+}
+.dataCollection {
+  background-color: papayawhip;
+}
+
+.dataCollectionTitle {
+  background-color: papayawhip;
+  margin-top: 2pc;
+  margin-left: 20%;
+  margin-bottom: 1pc;
+  
+}
+
+.dataCollectionTitle h1 {
+  background-color: papayawhip;
+  font-family: "Times New Roman";
+  font-weight: 500;
+  text-decoration-line: underline;
+  text-decoration-color: rgb(20, 125, 108);
+}
+
+.field1,
+.field2,
+.field3,
+.field4 {
+ 
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-color: #b2b2b2;
+  margin-left: 20%;
+  width: 60%;
+  height: 10pc;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5pc;
+  margin-bottom: 1pc;
+}
+
+.field2 {
+  height: 15pc;
+}
+
+.field3 {
+  height: 40pc;
+}
+
+.field4 {
+  height: 18pc;
+}
+
+.label,
+.inputField1,
+.inputField2,
+.inputField3,
+.inputField4,
+.inputField5,
+.field2 p,
+.field3 p,
+.field4 p {
+  width: 70%;
+  margin-left: 15%;
+}
+
+.inputField4 {
+  width: 25%;
+  margin-left: 1%;
+}
+
+.label {
+  margin-top: 2pc;
+}
+
+.label h3 b {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.inputField1,
+.inputField2,
+.inputField3,
+.inputField4 {
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #b2b2b2;
+  height: 2.5pc;
+  text-indent: 10px;
+}
+
+.inputField2 {
+  height: 7pc;
+}
+
+.buttonField1,
+.buttonField2 {
+  width: 12.5pc;
+  height: 13pc;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-color: #b2b2b2;
+  border-radius: 0.5pc;
+  margin-left: 15%;
+}
+
+.buttonField2 {
+  margin-left: 1pc;
+}
+
+.buttonImage1 {
+  margin-bottom: 1pc;
+  width: 3.5pc;
+  height: 3.5pc;
+}
+
+.timeButtonsRow2 {
+  margin-top: 1pc;
+}
+
+.radioButton {
+  width: 1pc;
+  height: 1pc;
+  float: left;
+  margin-top: -2.5pc;
+  margin-left: 1pc;
+}
+
+.amountInput {
+  display: flex;
+}
+
+.dollarSign {
+  margin-left: 15%;
+  margin-top: 4px;
+  font-weight: 500;
+  font-size: larger;
+}
+
+.priceGuide p {
+  margin-left: 15%;
+  margin-top: 1pc;
+}
+
+.priceGuide hr {
+  width: 12pc;
+  margin-left: 15%;
+}
+
+.radioAgencies {
+  margin-left: 15%;
+}
+
+.NextButtonDiv {
+  background-color: papayawhip;
+  height: 5pc;
+}
+
+.backButton {
+  margin-left: 20%;
+  margin-bottom: 1.5pc;
+  width: 5pc;
+  height: 2pc;
+  border-radius: 5px;
+  border-style: dashed;
+  border-color: rgb(20, 125, 108);
+  color: rgb(20, 125, 108);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.backButton:hover,
+.next2-button:hover {
+  box-shadow: 5px 10px 18px #dc5354;
+  transition-duration: 0.4s;
+}
+
+.dataCollectionForm {
+  background-color: papayawhip;
+} */
+
+
+
+
+
+
+
+/* create contest part-3 */
+.field11,
+.field12 {
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-color: #b2b2b2;
+  margin-left: 20%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5pc;
+  margin-bottom: 1pc;
+}
+
+.field11 {
+  height: 40pc;
+}
+
+.field12 {
+  height: 20pc;
+}
+
+.part11 {
+  margin-left: 10%;
+  width: 80%;
+  margin-top: 1.5pc;
+}
+
+.part11 h5 {
+  font-weight: 600;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.part11 p {
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.title11 {
+  width: 70%;
+  margin-left: 10%;
+  margin-top: 2pc;
+}
+
+.lets-do-this-button {
+  float: right;
+  margin-right: 18.25pc;
+  border-radius: 0.7pc;
+  width: 10pc;
+  height: 3pc;
+  background-color: #0d9bb9;
+  color: white;
+  border-color: #0d9bb9;
+}

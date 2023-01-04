@@ -1,0 +1,184 @@
+.c-c-2 {
+    background-color: papayawhip;
+  }
+  .dataCollection {
+    background-color: papayawhip;
+  }
+  
+  .dataCollectionTitle {
+    background-color: papayawhip;
+    margin-top: 2pc;
+    margin-left: 20%;
+    margin-bottom: 1pc;
+    
+  }
+  
+  .dataCollectionTitle h1 {
+    background-color: papayawhip;
+    font-family: "Times New Roman";
+    font-weight: 500;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(20, 125, 108);
+  }
+  
+  .field1,
+  .field2,
+  .field3,
+  .field4 {
+   
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: #b2b2b2;
+    margin-left: 20%;
+    width: 60%;
+    height: 10pc;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5pc;
+    margin-bottom: 1pc;
+  }
+  
+  .field2 {
+    height: 15pc;
+  }
+  
+  .field3 {
+    height: 40pc;
+  }
+  
+  .field4 {
+    height: 18pc;
+  }
+  
+  .label,
+  .inputField1,
+  .inputField2,
+  .inputField3,
+  .inputField4,
+  .inputField5,
+  .field2 p,
+  .field3 p,
+  .field4 p {
+    width: 70%;
+    margin-left: 15%;
+  }
+  
+  .inputField4 {
+    width: 25%;
+    margin-left: 1%;
+  }
+  
+  .label {
+    margin-top: 2pc;
+  }
+  
+  .label h3 b {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .inputField1,
+  .inputField2,
+  .inputField3,
+  .inputField4 {
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #b2b2b2;
+    height: 2.5pc;
+    text-indent: 10px;
+  }
+  
+  .inputField2 {
+    height: 7pc;
+  }
+  
+  .buttonField1,
+  .buttonField2 {
+    width: 12.5pc;
+    height: 13pc;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-color: #b2b2b2;
+    border-radius: 0.5pc;
+    margin-left: 15%;
+  }
+  
+  .buttonField2 {
+    margin-left: 1pc;
+  }
+  
+  .buttonImage1 {
+    margin-bottom: 1pc;
+    width: 3.5pc;
+    height: 3.5pc;
+  }
+  
+  .timeButtonsRow2 {
+    margin-top: 1pc;
+  }
+  
+  .radioButton {
+    width: 1pc;
+    height: 1pc;
+    float: left;
+    margin-top: -2.5pc;
+    margin-left: 1pc;
+  }
+  
+  .amountInput {
+    display: flex;
+  }
+  
+  .dollarSign {
+    margin-left: 15%;
+    margin-top: 4px;
+    font-weight: 500;
+    font-size: larger;
+  }
+  
+  .priceGuide p {
+    margin-left: 15%;
+    margin-top: 1pc;
+  }
+  
+  .priceGuide hr {
+    width: 12pc;
+    margin-left: 15%;
+  }
+  
+  .radioAgencies {
+    margin-left: 15%;
+  }
+  
+  .NextButtonDiv {
+    background-color: papayawhip;
+    height: 5pc;
+  }
+  
+  .backButton {
+    margin-left: 20%;
+    margin-bottom: 1.5pc;
+    width: 5pc;
+    height: 2pc;
+    border-radius: 5px;
+    border-style: dashed;
+    border-color: rgb(20, 125, 108);
+    color: rgb(20, 125, 108);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .backButton:hover,
+  .next2-button:hover {
+    box-shadow: 5px 10px 18px #dc5354;
+    transition-duration: 0.4s;
+  }
+  
+  .dataCollectionForm {
+    background-color: papayawhip;
+  }
+
+  .next2-button {
+    float: right;
+    margin-right: 20.4pc;
+  }

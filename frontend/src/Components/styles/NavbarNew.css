@@ -1,0 +1,43 @@
+/* for logo.png */
+/* .my-logo {
+    width: 17pc;
+    height: 2.75pc;
+  } */
+
+
+  /* for logo5.png */
+  .my-logo {
+    width: 11pc;
+    height: 3pc;
+    margin-left: 3%;
+  }
+
+  .navbar-nav,
+  .nav-item,
+  .nav-link,
+  .navbar,
+  .navbar-brand,
+  .my-logo,
+  .navbar-toggler,
+  .navbar-toggler-icon,
+  .collapse,
+  .Navbar-Section-section {
+    background-color: peachpuff;
+  }
+  
+  .collapse {
+    margin-right: 25px;
+  }
+  
+  /* for Logo5.png */
+  .navbar-brand {
+    margin-left: 4pc;
+    width: 40pc;
+  }
+
+
+  /* for Logo.png */
+  /* .navbar-brand {
+    margin-left: 5pc;
+    width: 45pc;
+  } */
